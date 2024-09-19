@@ -1,7 +1,7 @@
 String scaleText = "🐉"; // A character representing the scale
 float scaleWidth;         // Variable to hold the scale width
 float scaleHeight = 30;  // Height of each scale
-float widthMultiplier = 4; // Set to 4 for quadruple width
+float widthMultiplier = 4; // Set to 4 for  width
 
 void setup() {
   size(350, 380);  // Size of the canvas
@@ -10,7 +10,7 @@ void setup() {
 }
 
 void draw() {
-  background(400); // White background
+  background(400); // Blue background
   int rows = 15;         // Number of rows of scales
   int cols = 10;        // Number of columns of scales
   
