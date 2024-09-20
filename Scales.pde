@@ -1,16 +1,16 @@
 String scaleText = "🐉"; // A character representing the scale
 float scaleWidth;         // Variable to hold the scale width
-float scaleHeight = 30;  // Height of each scale
-float widthMultiplier = 4; // Set to 4 for  width
+float scaleHeight = 28;  // Height of each scale
+float widthMultiplier = 3; // Set to 4 for  width
 
 void setup() {
-  size(350, 380);  // Size of the canvas
+  size(380, 380);  // Size of the canvas
   noLoop();        // Stops the draw() function from repeating
   scaleWidth = textWidth(scaleText) * widthMultiplier; // Calculate the width of the scale based on the text
 }
 
 void draw() {
-  background(400); // Blue background
+  background(300); // Dark Blue background
   int rows = 15;         // Number of rows of scales
   int cols = 10;        // Number of columns of scales
   
