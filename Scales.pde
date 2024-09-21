@@ -1,4 +1,4 @@
-String scaleText = "🐉"; // A character representing the scale
+String scaleText = "🟩 "; // A character representing the scale
 float scaleWidth;         // Variable to hold the scale width
 float scaleHeight = 28;  // Height of each scale
 float widthMultiplier = 3; // Set to 4 for  width
