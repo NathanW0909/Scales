@@ -4,13 +4,13 @@ float scaleHeight = 28;  // Height of each scale
 float widthMultiplier = 3; // Set to 4 for  width
 
 void setup() {
-  size(380, 380);  // Size of the canvas
+  size(370, 380);  // Size of the canvas
   noLoop();        // Stops the draw() function from repeating
   scaleWidth = textWidth(scaleText) * widthMultiplier; // Calculate the width of the scale based on the text
 }
 
 void draw() {
-  background(300); // Dark Blue background
+  background(20); // Dark Blue background
   int rows = 15;         // Number of rows of scales
   int cols = 10;        // Number of columns of scales
   
